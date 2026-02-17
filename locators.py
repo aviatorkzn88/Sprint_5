@@ -12,7 +12,6 @@ class TestLocators:
     BUNS_SECTION = (By.XPATH, ".//span[text()='Булки']/parent::div") # Вкладка "Булки"
     SAUCES_SECTION = (By.XPATH, ".//span[text()='Соусы']/parent::div") # Вкладка "Соусы"
     FILLINGS_SECTION = (By.XPATH, ".//span[text()='Начинки']/parent::div") # Вкладка "НАчинки"
-    ACTIVE_TAB = (By.XPATH, ".//div[contains(@class, 'tab_tab_type_current')]") # Активная вкладка
 
     # Форма входа/регистрации
     NAME_INPUT = (By.XPATH, ".//div[div/label[text()='Имя']]//input") # Поле ввода "Имя"
@@ -28,7 +27,7 @@ class TestLocators:
     
     # Личный кабинет
     LOGOUT_BUTTON = (By.XPATH, ".//button[text()='Выход']") # Кнопка "Выход"
-    
+
     
     # Ошибки
     INVALID_PASSWORD_ERROR = (By.XPATH, ".//p[text()='Некорректный пароль']") # Сообщение об ошибке "Некорректный пароль"
